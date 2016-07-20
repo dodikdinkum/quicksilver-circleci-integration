@@ -4,7 +4,7 @@ This script shows how to integrate CircleCI with your Pantheon project using Qui
 
 ## Instructions ##
 
-1. Create a file pantheon.yml for Quicksilver configuration and place it at the root of the site's code directory with the following contents:
+1. Create a file `pantheon.yml` for Quicksilver configuration and place it at the root of the site's code directory with the following contents:
   ```yaml
     api_version: 1
 
