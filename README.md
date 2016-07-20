@@ -19,7 +19,6 @@ This script shows how to integrate CircleCI with your Pantheon project using Qui
 
   ```shell
     $> echo '{ "username":"YOUR USER NAME", "project":"pcms-automated-testing", "token":"YOUR API KEY" }' > secrets.json
-    # Note, you'll need to copy the secrets into each environment where you want to trigger Slack notifications.
     $> `terminus site connection-info --env=dev --site=your-site --field=sftp_command`
         Connected to appserver.dev.d1ef01f8-364c-4b91-a8e4-f2a46f14237e.drush.in.
     sftp> cd files  
